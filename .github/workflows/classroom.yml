@@ -1,11 +1,13 @@
 name: GitHub Classroom Autograding - TP 5
 
+
 on:
   push:
     branches:
+      - principal
       - main
       - master
-  workflow_dispatch:
+
 
 permissions:
   checks: write
